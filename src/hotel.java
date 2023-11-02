@@ -37,7 +37,7 @@ public class hotel {
         else if (typ_izby==typi[4]) {
             cena_izby_na_jednu_osobu_a_jednu_noc = 180;
         }
-        System.out.println(cena_izby_na_jednu_osobu_a_jednu_noc);
+
         System.out.println("Napis kolko osob: ");
         int osoby=s.nextInt();
         System.out.println("Dátum príchodu: ");
@@ -52,7 +52,6 @@ public class hotel {
         int den_odchod = Integer.valueOf(odchod.substring(8,10));
         if (mesiac_odchod==mesiac_prichod){
             int dni=den_odchod-den_prichod;
-            System.out.println(dni);
             celkova_cena=cena_izby_na_jednu_osobu_a_jednu_noc*dni;
             celkova_cena*=osoby;
             celkova_cena*=izby;
@@ -66,7 +65,6 @@ public class hotel {
                 mesiace_dni1=29;
             }
             mesiace_dni=(mesiac_odchod-mesiac_prichod)*31+mesiace_dni1;
-            System.out.println(mesiace_dni);
             int dni=(den_odchod-den_prichod)+mesiace_dni;
             celkova_cena=cena_izby_na_jednu_osobu_a_jednu_noc*dni;
             celkova_cena*=osoby;
