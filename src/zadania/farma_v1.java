@@ -1,3 +1,5 @@
+package zadania;
+
 import java.util.Random;
 
 /*Zadanie1 - Farma v1 (základy -  údajové typy)

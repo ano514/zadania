@@ -1,3 +1,5 @@
+package zaklady;
+
 import java.util.Scanner;
 
 public class cisla5 {

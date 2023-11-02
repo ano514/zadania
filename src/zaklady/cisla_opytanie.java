@@ -1,3 +1,5 @@
+package zaklady;
+
 import java.util.*;
 
 public class cisla_opytanie {

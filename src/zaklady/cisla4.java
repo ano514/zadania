@@ -1,3 +1,5 @@
+package zaklady;
+
 public class cisla4 {
     public static void main(String args[]) {
         double vyraz1 = 25.5 * 3.5;

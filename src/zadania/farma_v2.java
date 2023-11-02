@@ -1,3 +1,5 @@
+package zadania;
+
 import java.util.Random;
 /*Program by sa dal rozšíriť o funkciu, ktorá by počítala celkovú úrodu na farme. Táto funkcia by sa dala implementovať nasledovne:
 Očakávaný výstup:

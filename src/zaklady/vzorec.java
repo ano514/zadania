@@ -1,3 +1,5 @@
+package zaklady;
+
 public class vzorec {
     public static void main(String args[]) {
         double vyraz1 = 1.0/3;

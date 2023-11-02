@@ -1,3 +1,5 @@
+package zaklady;
+
 public class Obdlznik {
     public static void main(String args[]) {
         double sirka = 5.6;
