@@ -19,6 +19,11 @@ public class kvadraticka_rovnica {
         System.out.println("Vstup b: ");
         int b = s.nextInt();
         System.out.println("Vstup c: ");
+        int c = s.nextInt();
+        double d = (b*b)-4*a*c;
+        double x1= (-b+Math.sqrt(d))/2*a;
+        double x2= (-b-Math.sqrt(d))/2*a;
+        System.out.println("Korene su "+x1+" a "+x2);
 
     }
 }

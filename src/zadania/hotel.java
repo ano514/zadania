@@ -24,19 +24,19 @@ public class hotel {
         String typ_izby=s.next();
         int cena_izby_na_jednu_osobu_a_jednu_noc = 0;
         int celkova_cena=0;
-        if (typ_izby==typi[0]) {
+        if (typ_izby.equals(typi[0])) {
             cena_izby_na_jednu_osobu_a_jednu_noc = 75;
         }
-        else if (typ_izby==typi[1]) {
+        else if (typ_izby.equals(typi[1])) {
             cena_izby_na_jednu_osobu_a_jednu_noc = 90;
         }
-        else if (typ_izby==typi[2]) {
+        else if (typ_izby.equals(typi[2])) {
             cena_izby_na_jednu_osobu_a_jednu_noc = 115;
         }
-        else if (typ_izby==typi[3]) {
+        else if (typ_izby.equals(typi[3])) {
             cena_izby_na_jednu_osobu_a_jednu_noc = 100;
         }
-        else if (typ_izby==typi[4]) {
+        else if (typ_izby.equals(typi[4])) {
             cena_izby_na_jednu_osobu_a_jednu_noc = 180;
         }
 
