@@ -7,7 +7,7 @@ public class parne_neparne {
         Scanner s = new Scanner(System.in);
         System.out.println("vloz cislo");
         int cislo=s.nextInt();
-        ja.Parne_alebo_nie(cislo);
+        parne_neparne2.Parne_alebo_nie(cislo);
     }
 
 

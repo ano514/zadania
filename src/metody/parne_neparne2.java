@@ -1,6 +1,6 @@
 package metody;
 
-public class ja {
+public class parne_neparne2 {
 
         public static void Parne_alebo_nie(int cislo){
             if(cislo%2==0){
