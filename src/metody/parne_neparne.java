@@ -8,6 +8,7 @@ public class parne_neparne {
         System.out.println("vloz cislo");
         int cislo=s.nextInt();
         parne_neparne2.Parne_alebo_nie(cislo);
+
     }
 
 
