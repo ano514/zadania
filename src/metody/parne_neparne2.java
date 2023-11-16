@@ -12,4 +12,11 @@ public class parne_neparne2 {
 
         }
 
+        public String hladaj(int cislo) {
+            if (cislo % 2 == 0) {
+                return  "cislo je prane";
+            } else {
+                return "Cislo je neprane";
+            }
+        }
 }
